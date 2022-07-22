@@ -1,0 +1,140 @@
+h2 {
+  font-family: "SF Pro Display";
+}
+
+.sideBar {
+  position: relative;
+  border-right: 1px solid #E3E4E6;
+  border-left: 1px solid #E3E4E6;
+  width: 360px;
+  height: 100vh;
+}
+
+header{
+  position: relative;
+}
+
+.sideBarHeader {
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  
+}
+
+.messagesArea {
+  width: 360px;
+  top: 112px;
+  position: relative;
+  overflow: auto;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.appBarTitle {
+  margin: 12px 0px 12px 16px;
+}
+
+.appBar {
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+}
+
+.appBarChatNotification {
+  margin-top: 16px;
+  border: transparent;
+  width: 48px;
+  height: 48px;
+  background: url("../../assets/img/Icon_7_Bell.svg");
+  background-repeat: no-repeat;
+}
+
+.appBarNewChat {
+  margin-top: 16px;
+  border: transparent;
+  height: 48px;
+  width: 48px;
+  background: url("../../assets/img/Icon_8_Plus.svg");
+  background-repeat: no-repeat;
+}
+
+.searchArea {
+  margin: 0px 16px 16px 16px;
+  padding-left: 36px;
+  border: transparent;
+  border-radius: 8px;
+  width: 328px;
+  height: 40px;
+  font-family: "SF Pro Text Regular";
+  font-size: 15px;
+  background: #C9CCD13D;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 68px;
+  left: 30px;
+}
+
+.chatList {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.chatItem {
+  position: relative;
+  display: flex;
+  margin-left: 16px;
+}
+
+.chatItem:hover {
+  background-color: #398FE5;
+}
+
+.chatItem:hover .contentItem {
+  color: white;
+}
+
+/* .chatItem:hover .contentItem .contentUser {
+  color: white;
+} */
+
+
+
+/* .chatItem:active {
+  background: #248BF2;
+} */
+
+.chatItem:not(:first-child) {
+  margin-top: 12px;
+}
+
+.contentItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentUser {
+  display: flex;
+  /* justify-content: space-between; */
+  font-family: 'SF Pro Text Regular';
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+}
+
+.userMsg {
+  display: flex;
+  font-family: 'SF Pro Text Regular';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+  gap: 10px;
+}
+
+

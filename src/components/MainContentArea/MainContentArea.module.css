@@ -1,0 +1,7 @@
+.mainContentArea {
+  height: 100vh;
+  /* margin: auto 112px; */
+  /* overflow-y: auto;
+  overflow-x: hidden; */
+  position: relative;
+}

@@ -1,0 +1,11 @@
+.contentItemUsername {
+  display: flex;
+  font-family: 'SF Pro Text';
+  font-size: 15px;
+  line-height: 24px;
+}
+
+/* .contentItemUsername:hover {
+  color: white;
+} */
+

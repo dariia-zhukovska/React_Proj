@@ -1,0 +1,57 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.composeBar {
+  /* position: absolute; */
+  display: flex;
+  width: 100%;
+  padding: 0 122px;
+  align-items: center;
+  background: #fff;
+}
+
+.addFileBtn {
+  margin: 24px 24px 24px auto;
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+  border: transparent;
+  background: transparent;
+  background-repeat: no-repeat;
+}
+
+.inputArea {
+  position: relative;
+  width: 100%;
+}
+
+.newMessageInput {
+  margin: 16px 0px;
+  padding: 8px auto 8px 16px;
+  width: 100%;
+  height: 40px;
+  font-family: "SF Pro Text Regular";
+  font-size: 15px;
+  border: transparent;
+  border-radius: 8px;
+  background: #C9CCD13D;
+}
+
+.stickersIcon {
+  position: absolute;
+  top: 26px;
+  right: 10px;
+}
+
+.enterBtn {
+  margin: 24px auto 24px 24px;
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+  border: transparent;
+  background: transparent;
+  background-repeat: no-repeat;
+}

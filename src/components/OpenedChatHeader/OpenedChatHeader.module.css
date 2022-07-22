@@ -1,0 +1,33 @@
+.openedChat {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  background: #fff;
+}
+
+.openedChat {
+  padding: 0 112px;
+}
+
+.openedChatTop {
+  display: flex;
+}
+
+.openedChatInfo {
+  margin-left: 16px;
+  margin-top: 6px;
+}
+
+.openedChatSubtitle {
+  display: flex;
+}
+
+.openedChatButtons {
+  align-self: center;
+}
+
+.openedChatHeader{
+  height: 52px;
+  box-shadow: 0.5px 2px 2px #00000010;
+}

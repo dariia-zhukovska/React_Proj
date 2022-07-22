@@ -1,0 +1,44 @@
+/* .notificationsBlock {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+} */
+
+.newMsgBlue {
+  align-self: center;
+  text-align: center;
+  margin-left: 16px;
+  margin-right: 16px; 
+}
+
+.newMsgGrey {
+  /* position: absolute;
+  top: 46px;
+  right: 16px;
+  align-self: center; */
+  align-self: center;
+  text-align: center;
+  margin-left: 16px;
+  margin-right: 16px; 
+
+}
+
+.notificationsBlock {
+  font-family: 'SF Pro Text';
+  font-size: 13px;
+  padding: 1px 7px 1px 7px;
+  border-radius: 100px;
+  width: auto;
+  height: 22px;
+  color: #FFFFFF;
+  background: #248BF2;
+}
+
+.notificationsBlockMuted {
+  align-self: center;
+  padding: 2px 6px;
+  background: #C8C9CC;
+  border-radius: 100px;
+  color: #FFFFFF;
+}

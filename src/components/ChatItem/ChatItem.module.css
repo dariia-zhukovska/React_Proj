@@ -1,0 +1,48 @@
+.chatItem {
+  position: relative;
+  display: flex;
+  padding: 8px 16px 8px 16px;
+}
+
+/* .chatItem:not(:first-child) {
+  margin-top: 12px;
+} */
+
+.contentItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.chatItem:hover {
+  background-color: #398FE5;
+}
+
+.contentUser {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'SF Pro Text Regular';
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+  min-width: 180px;
+}
+
+.chatItem:hover .contentItem {
+  color: white;
+}
+.chatItem:hover .contentUser {
+  color: white;
+} 
+
+
+
+
+.userMsg {
+  display: flex;
+  font-family: 'SF Pro Text Regular';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+  gap: 10px;
+}

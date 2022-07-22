@@ -1,0 +1,67 @@
+
+.messageItem {
+  display: flex;
+  margin: auto 16px 8px 16px;
+  padding: 1px 96px;
+}
+
+.messageItem:last-child {
+  height: 112px;
+}
+
+.messageItemContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3px;
+  /* width: 680px; */
+}
+
+.messageItemTitle {
+  display: flex;
+}
+
+.messageContent {
+  font-family: 'SF Pro Text Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #171A1F;
+  letter-spacing: -0.24px;
+}
+
+.messageContent:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.forwardedMsgContent {
+  display: flex;
+  margin-top: 8px;
+}
+.messageContent>.messageItemContent {
+  margin-top: 0px;
+  transform: translateY(-4px);
+}
+
+.reactionBlockItem {
+  display: flex;
+  width: max-content;
+  margin-right: 8px;
+  margin-bottom: 16px;
+  padding: 3px 12px 0px 12px;
+  font-family: 'SF Pro Text Regular';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #71747A;
+  background: #F2F3F5;
+  border-radius: 100px;
+}
+
+.reactionBlock {
+  display: flex;
+  flex-direction: row;
+}
+ 
+
+
